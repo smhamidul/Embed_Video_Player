@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_200"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="Mizanur Rahman Azhari's Waz"
+            android:textColor="@color/black"
+            />
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/mizanur_rahman"
+            android:scaleType="centerCrop"
+            />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="SpeakableTextPresentCheck">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical">
+
+                <!--Waz Start-->
+                <LinearLayout
+                    android:id="@+id/bWaz1"
+                    android:layout_width="match_parent"
+                    android:layout_height="110dp"
+                    android:orientation="horizontal"
+                    android:background="#0D000000"
+                    android:layout_margin="5dp"
+                    >
+
+                    <ImageView
+                        android:id="@+id/waz1"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/hamidul"
+                        android:scaleType="centerCrop"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="5dp"
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="জীবন পাল্টানো একটি ওয়াজ।একবার শুনেই দেখুন চোখে পানি ধরে রাখতে পারবেন না।Mizanur rahman azhari 2020"
+                            android:ellipsize="end"
+                            android:maxLines="1"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="জীবন পাল্টানো একটি ওয়াজ।একবার শুনেই দেখুন চোখে পানি ধরে রাখতে পারবেন না। Mizanur rahman azhari new waz 2020"
+                            android:ellipsize="end"
+                            android:maxLines="2"
+                            />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="Duration : 1:01:17"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+                <!--Waz End-->
+
+                <!--Waz Start-->
+                <LinearLayout
+                    android:id="@+id/bWaz2"
+                    android:layout_width="match_parent"
+                    android:layout_height="110dp"
+                    android:orientation="horizontal"
+                    android:background="#0D000000"
+                    android:layout_margin="5dp"
+                    >
+
+                    <ImageView
+                        android:id="@+id/waz2"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/hamidul"
+                        android:scaleType="centerCrop"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="5dp"
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="৩ বছর পর আজহারীর মধুর সুরে ওয়াজ মানুষের কান্না । Mizanur rahman azhari new waz 2023"
+                            android:ellipsize="end"
+                            android:maxLines="1"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="দীর্ঘ ৩ বছর পর মিজানুর রহমান  আজহারীর মধুর সুরে ওয়াজ শুনলাম চোখে পানি এসে গেল। Mizanur rahman azhari new waz 2023"
+                            android:ellipsize="end"
+                            android:maxLines="2"
+                            />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="Duration : 1:18:36"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+                <!--Waz End-->
+
+                <!--Waz Start-->
+                <LinearLayout
+                    android:id="@+id/bWaz3"
+                    android:layout_width="match_parent"
+                    android:layout_height="110dp"
+                    android:orientation="horizontal"
+                    android:background="#0D000000"
+                    android:layout_margin="5dp"
+                    >
+
+                    <ImageView
+                        android:id="@+id/waz3"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/hamidul"
+                        android:scaleType="centerCrop"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="5dp"
+                        >
+
+                        <!--Title Start-->
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="রাসুল (সাঃ) এর জীবনী শুনে চোখে পানি এসে গেলো। Biography of Prophet Muhammad | Mizanur Rahman Azhari"
+                            android:ellipsize="end"
+                            android:maxLines="1"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            />
+                        <!--Title End-->
+
+                        <!--Description Start-->
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="Mizanur Rahman Azhari Waz Bangla Waz Biography of Prophet Muhammad (PBUH) in Bangla. Mizanur Rahman Azhari Full Waz Bangla Waz Bissho Nobir Jiboni. Rasul Saw er Jiboni niye Sompurno New Bangla Waz. Mizanur Rahman Azhari is an Islamic Scholar from Bangladesh. PhD Researcher of International Islamic University of Malaysia."
+                            android:ellipsize="end"
+                            android:maxLines="2"
+                            />
+                        <!--Description End-->
+
+                        <!--Duration Start-->
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="Duration : 1:49:31"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            />
+                        <!--Duration End-->
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+                <!--Waz End-->
+
+                <!--Waz Start-->
+                <LinearLayout
+                    android:id="@+id/bWaz4"
+                    android:layout_width="match_parent"
+                    android:layout_height="110dp"
+                    android:orientation="horizontal"
+                    android:background="#0D000000"
+                    android:layout_margin="5dp"
+                    >
+
+                    <ImageView
+                        android:id="@+id/waz4"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/hamidul"
+                        android:scaleType="centerCrop"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="5dp"
+                        >
+
+                        <!--Title Start-->
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="মাহে রমজান থেকেই ১০টি অভ্যাস ত্যাগ করুন । আপনার জীবন বদলে যাবে। Mizanur rahman azhari"
+                            android:ellipsize="end"
+                            android:maxLines="1"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            />
+                        <!--Title End-->
+
+                        <!--Description Start-->
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="মাহে রমজান থেকেই ১০টি অভ্যাস ত্যাগ করুন। আপনার জীবন বদলে যাবে। Mizanur rahman azhari"
+                            android:ellipsize="end"
+                            android:maxLines="2"
+                            />
+                        <!--Description End-->
+
+                        <!--Duration Start-->
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="Duration : 58:14"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            />
+                        <!--Duration End-->
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+                <!--Waz End-->
+
+                <!--Waz Start-->
+                <LinearLayout
+                    android:id="@+id/bWaz5"
+                    android:layout_width="match_parent"
+                    android:layout_height="110dp"
+                    android:orientation="horizontal"
+                    android:background="#0D000000"
+                    android:layout_margin="5dp"
+                    >
+
+                    <ImageView
+                        android:id="@+id/waz5"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/hamidul"
+                        android:scaleType="centerCrop"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="5dp"
+                        >
+
+                        <!--Title Start-->
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="সব জেলার রেকর্ড ভেঙ্গে দিল কক্সবাজারের মাহফিল হঠাৎ মাহফিলের মাঝখানে পুলিশ। Mizanur rahman azhari waz"
+                            android:ellipsize="end"
+                            android:maxLines="1"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            />
+                        <!--Title End-->
+
+                        <!--Description Start-->
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="সব জেলার রেকর্ড ভেঙ্গে দিল কক্সবাজারের মাহফিল হঠাৎ মাহফিলের মাঝখানে পুলিশ দেখে সবাই অবাক হলেন। Mizanur rahman azhari waz 2019"
+                            android:ellipsize="end"
+                            android:maxLines="2"
+                            />
+                        <!--Description End-->
+
+                        <!--Duration Start-->
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="Duration : 1:43:26"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            />
+                        <!--Duration End-->
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+                <!--Waz End-->
+
+                <!--Waz Start-->
+                <LinearLayout
+                    android:id="@+id/bWaz7"
+                    android:layout_width="match_parent"
+                    android:layout_height="110dp"
+                    android:orientation="horizontal"
+                    android:background="#0D000000"
+                    android:layout_margin="5dp"
+                    >
+
+                    <ImageView
+                        android:id="@+id/waz7"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/hamidul"
+                        android:scaleType="centerCrop"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="5dp"
+                        >
+
+                        <!--Title Start-->
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="কেয়ামত দিন সকালবেলা ঘটনা।Mizanur Rahman Azhari।Bangla Waz"
+                            android:ellipsize="end"
+                            android:maxLines="1"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            />
+                        <!--Title End-->
+
+                        <!--Description Start-->
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="কেয়ামত_দিন_সকালবেলা_ঘটনা"
+                            android:ellipsize="end"
+                            android:maxLines="2"
+                            />
+                        <!--Description End-->
+
+                        <!--Duration Start-->
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="Duration : 25:59"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            />
+                        <!--Duration End-->
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+                <!--Waz End-->
+
+                <!--Waz Start-->
+                <LinearLayout
+                    android:id="@+id/bWaz8"
+                    android:layout_width="match_parent"
+                    android:layout_height="110dp"
+                    android:orientation="horizontal"
+                    android:background="#0D000000"
+                    android:layout_margin="5dp"
+                    >
+
+                    <ImageView
+                        android:id="@+id/waz8"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/hamidul"
+                        android:scaleType="centerCrop"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="5dp"
+                        >
+
+                        <!--Title Start-->
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="হযরত ওমর (রাঃ)-এর পূর্ণাঙ্গ জীবনী || জীবন পরিবর্তনের ওয়াজ || Mizanur Rahman Al Azhari New Waz 2020"
+                            android:ellipsize="end"
+                            android:maxLines="1"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            />
+                        <!--Title End-->
+
+                        <!--Description Start-->
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="কহযরত ওমর রাঃ এর জীবনী, ওমর রাঃ এর জীবনী, mizanur rahman azhari, mizanur rahman azhari waz, মিজানুর রহমান আজহারী নতুন ওয়াজ, ওয়াজ, mizanur rahman azhari new waz, waz mizanur rahman azhari,  #mizanur_rhaman_azhari, ওয়াজ মিজানুর "
+                            android:ellipsize="end"
+                            android:maxLines="2"
+                            />
+                        <!--Description End-->
+
+                        <!--Duration Start-->
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="Duration : 1:13:03"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            />
+                        <!--Duration End-->
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+                <!--Waz End-->
+
+                <!--Waz Start-->
+                <LinearLayout
+                    android:id="@+id/bWaz6"
+                    android:layout_width="match_parent"
+                    android:layout_height="110dp"
+                    android:orientation="horizontal"
+                    android:background="#0D000000"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="30dp"
+                    >
+
+                    <ImageView
+                        android:id="@+id/waz6"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/hamidul"
+                        android:scaleType="centerCrop"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="5dp"
+                        >
+
+                        <!--Title Start-->
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="কেয়ামতের আলামত প্রকাশ। মিজানুর রহমান আজহারী নতুন ওয়াজ। mizanur rahman azhari। azhari new waz 2023."
+                            android:ellipsize="end"
+                            android:maxLines="1"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            />
+                        <!--Title End-->
+
+                        <!--Description Start-->
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="কেয়ামতের আলামত প্রকাশ। মিজানুর রহমান আজহারী নতুন ওয়াজ। mizanur rahman azhari। azhari new waz 2023."
+                            android:ellipsize="end"
+                            android:maxLines="2"
+                            />
+                        <!--Description End-->
+
+                        <!--Duration Start-->
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="Duration : 1:07:01"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            />
+                        <!--Duration End-->
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+                <!--Waz End-->
+
+
+
+
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</LinearLayout>
