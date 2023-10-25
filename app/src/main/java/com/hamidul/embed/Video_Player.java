@@ -28,16 +28,5 @@ public class Video_Player extends AppCompatActivity {
         webView.loadUrl(video_id);
 
 
-
-
-
-
-
-
-
-
-
-
-
     }
 }
